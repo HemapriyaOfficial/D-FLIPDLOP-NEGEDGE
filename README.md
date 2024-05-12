@@ -72,4 +72,5 @@ if(!reset)//compute D flipflop logic here
 
 
 **RESULTS**
+
 Thus the program to implement a D flipflop using verilog and validating their functionality using their functional table.
