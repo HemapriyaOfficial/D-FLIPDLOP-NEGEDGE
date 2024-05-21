@@ -48,17 +48,17 @@ Check for Race Conditions: Ensure that there are no race conditions or undefined
 
 Developed by:Hemapriya K  RegisterNumber:212223040066
 
-
+```
 module dflipflop(D,Clock,reset,Q);
 input D,Clock,reset;
 output reg Q;
-always @(negedge Clock) // use negative edge clock for triggereing condition 
-if(!reset)//compute D flipflop logic here
+always @(negedge Clock) 
+if(!reset)
  Q<=0;
  else
  Q<=D;
  endmodule
-
+```
 
 
 **RTL LOGIC FOR FLIPFLOPS**
